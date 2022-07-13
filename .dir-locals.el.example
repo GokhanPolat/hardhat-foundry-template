@@ -1,0 +1,5 @@
+((solidity-mode . ((eval . (setq solidity-flycheck-solc-additional-allow-paths (list
+                  (expand-file-name "./node_modules/" (solidity-flycheck--find-working-directory nil))
+                  (expand-file-name "./lib/" (solidity-flycheck--find-working-directory nil))
+                  ;; (expand-file-name "./lib/solmate/src/" (solidity-flycheck--find-working-directory nil))
+                  ))))))
