@@ -17,6 +17,6 @@ contract TokenTest is Test {
     }
 
     function testName_str() public {
-        assertEq(t.name_str(), "merhaba");
+        assertEq(t.name_str(), "check str");
     }
 }

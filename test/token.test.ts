@@ -14,6 +14,6 @@ describe("Token", function () {
     const token = await Token.deploy();
     await token.deployed();
 
-    expect(await token.name_str()).to.equal("merhaba");
+    expect(await token.name_str()).to.equal("check str");
   });
 });
